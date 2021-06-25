@@ -24,6 +24,7 @@
 		39E183E42684F8E700417D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39E183E72684F8E700417D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39E183E92684F8E700417D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39E183EF2686657C00417D47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		39E183CF2684F8E300417D47 = {
 			isa = PBXGroup;
 			children = (
+				39E183EF2686657C00417D47 /* README.md */,
 				39E183DA2684F8E300417D47 /* Dice City */,
 				39E183D92684F8E300417D47 /* Products */,
 			);
