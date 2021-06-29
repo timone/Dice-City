@@ -13,8 +13,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var diceImageView2: UIImageView!
     
-//    var leftDiceNumber = 1
-//    var rightDiceNumber = 5
+
+    
+    //    var leftDiceNumber = 1
+    
+    
+
     
     @IBAction func rollButtonPressed(_ sender: UIButton) {
         
