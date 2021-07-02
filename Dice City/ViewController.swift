@@ -20,7 +20,9 @@ class ViewController: UIViewController {
         diceImageView1.image = diceArray.randomElement()
         // even shorter, delete Int.random and replace by randomElement()
         
-        diceImageView2.image = diceArray[Int.random(in: 0...5)]
+        diceImageView2.image = diceArray.randomElement()
+        
+//        diceImageView2.image = diceArray[Int.random(in: 0...5)]
                 
         // print(Int.random(in: 1...10)) // to show the randomizing with range.
         // 3 dots specify range from 1, including 10
