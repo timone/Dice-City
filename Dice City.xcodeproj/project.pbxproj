@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3927170726A8053F00C081E8 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3927170626A8053F00C081E8 /* Launch Screen.storyboard */; };
 		39E183DC2684F8E300417D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E183DB2684F8E300417D47 /* AppDelegate.swift */; };
 		39E183DE2684F8E300417D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E183DD2684F8E300417D47 /* SceneDelegate.swift */; };
 		39E183E02684F8E300417D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39E183DF2684F8E300417D47 /* ViewController.swift */; };
 		39E183E32684F8E300417D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E183E12684F8E300417D47 /* Main.storyboard */; };
 		39E183E52684F8E700417D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39E183E42684F8E700417D47 /* Assets.xcassets */; };
-		39E183E82684F8E700417D47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39E183E62684F8E700417D47 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3927170626A8053F00C081E8 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		39E183D82684F8E300417D47 /* Dice City.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice City.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		39E183DB2684F8E300417D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39E183DD2684F8E300417D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		39E183DF2684F8E300417D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39E183E22684F8E300417D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39E183E42684F8E700417D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39E183E72684F8E700417D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39E183E92684F8E700417D47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39E183EF2686657C00417D47 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 				39E183DF2684F8E300417D47 /* ViewController.swift */,
 				39E183E12684F8E300417D47 /* Main.storyboard */,
 				39E183E42684F8E700417D47 /* Assets.xcassets */,
-				39E183E62684F8E700417D47 /* LaunchScreen.storyboard */,
+				3927170626A8053F00C081E8 /* Launch Screen.storyboard */,
 				39E183E92684F8E700417D47 /* Info.plist */,
 			);
 			path = "Dice City";
@@ -126,7 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39E183E82684F8E700417D47 /* LaunchScreen.storyboard in Resources */,
+				3927170726A8053F00C081E8 /* Launch Screen.storyboard in Resources */,
 				39E183E52684F8E700417D47 /* Assets.xcassets in Resources */,
 				39E183E32684F8E300417D47 /* Main.storyboard in Resources */,
 			);
@@ -154,14 +154,6 @@
 				39E183E22684F8E300417D47 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		39E183E62684F8E700417D47 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39E183E72684F8E700417D47 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
