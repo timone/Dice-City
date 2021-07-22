@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,7 +12,7 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="obG-Y5-kRd">
@@ -30,18 +30,27 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d" translatesAutoresizingMaskIntoConstraints="NO" id="50k-xd-l01">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JyldyzLogo" translatesAutoresizingMaskIntoConstraints="NO" id="x4N-DO-86W">
-                                <rect key="frame" x="87" y="384" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="JyldyzLogo" translatesAutoresizingMaskIntoConstraints="NO" id="x4N-DO-86W">
+                                <rect key="frame" x="89" y="338" width="250" height="250"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Become a Digital Nomad" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3OS-JE-05W">
+                                <rect key="frame" x="120" y="618" width="188" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="50k-xd-l01" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="1DW-YQ-Gi8"/>
+                            <constraint firstItem="3OS-JE-05W" firstAttribute="top" secondItem="x4N-DO-86W" secondAttribute="bottom" constant="30" id="38T-aw-nN1"/>
+                            <constraint firstItem="3OS-JE-05W" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JLY-At-6zc"/>
+                            <constraint firstItem="x4N-DO-86W" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="OaE-QA-BQz"/>
                             <constraint firstItem="50k-xd-l01" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Sul-To-3wO"/>
+                            <constraint firstItem="x4N-DO-86W" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eD1-yS-0w2"/>
                             <constraint firstItem="50k-xd-l01" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="eYc-RA-OBl"/>
                             <constraint firstAttribute="bottom" secondItem="50k-xd-l01" secondAttribute="bottom" id="vjk-0v-TA9"/>
                         </constraints>
@@ -49,7 +58,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="51.86915887850467" y="374.51403887688986"/>
         </scene>
     </scenes>
     <resources>
